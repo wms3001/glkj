@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65eb5d6d-f6a0-49d7-b949-b5e57dce387b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../berry-free-react-admin-template/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coreui-free-react-admin-template/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../berry-free-react-admin-template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../berry-free-react-admin-template/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../berry-free-react-admin-template/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../berry-free-react-admin-template/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../berry-free-react-admin-template/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../berry-free-react-admin-template/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coreui-free-react-admin-template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../coreui-free-react-admin-template/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../berry-free-react-admin-template" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HZdvXMM9mYuDlfsZv9r4Yf2MoW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/glkj/WebstormProjects/glkj/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/home/glkj/.local/share/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4345.14/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65eb5d6d-f6a0-49d7-b949-b5e57dce387b" name="Changes" comment="" />
+      <created>1668496772528</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668496772528</updated>
+      <workItem from="1668496773787" duration="12281000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
