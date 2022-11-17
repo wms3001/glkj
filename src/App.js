@@ -8,58 +8,6 @@ import { IconSemiLogo, IconBell, IconHelpCircle, IconBytedanceLogo, IconHome, Ic
 
 function App() {
     const { Header, Footer, Sider, Content } = Layout;
-    // return(
-    //     <div style={{ width: '100%' }}>
-    //         <Nav
-    //             mode={'horizontal'}
-    //             items={[
-    //                 { itemKey: 'user', text: '用户管理', icon: <IconUser /> },
-    //                 { itemKey: 'union', text: '活动管理', icon: <IconStar /> },
-    //                 {
-    //                     itemKey: 'approve-management',
-    //                     text: '审批管理',
-    //                     icon: <IconEdit />,
-    //                     items: [
-    //                         '入驻审核',
-    //                         {
-    //                             itemKey: 'operation-management',
-    //                             text: '运营管理',
-    //                             items: [
-    //                                 '人员管理',
-    //                                 '人员变更'
-    //                             ]
-    //                         }
-    //                     ]
-    //                 },
-    //                 {
-    //                     text: '任务平台',
-    //                     icon: <IconSetting />,
-    //                     itemKey: 'job',
-    //                     items: ['任务管理', '用户任务查询'],
-    //                 },
-    //             ]}
-    //             onSelect={key => console.log(key)}
-    //             header={{
-    //                 logo: <img src="https://sf6-cdn-tos.douyinstatic.com/obj/eden-cn/ptlz_zlp/ljhwZthlaukjlkulzlp/root-web-sites/webcast_logo.svg" />,
-    //                 text: 'Semi 运营后台'
-    //             }}
-    //             footer={
-    //                 <Dropdown
-    //                     position="bottomRight"
-    //                     render={
-    //                         <Dropdown.Menu>
-    //                             <Dropdown.Item>详情</Dropdown.Item>
-    //                             <Dropdown.Item>退出</Dropdown.Item>
-    //                         </Dropdown.Menu>
-    //                     }
-    //                 >
-    //                     <Avatar size="small" color='light-blue' style={{ margin: 4 }}>BD</Avatar>
-    //                     <span>Bytedancer</span>
-    //                 </Dropdown>
-    //             }
-    //         />
-    //     </div>
-    // );
     return (
       <Layout style={{ border: '1px solid var(--semi-color-border)' }}>
           <Header style={{ backgroundColor: 'var(--semi-color-bg-1)' }}>
@@ -68,9 +16,7 @@ function App() {
                       mode={'horizontal'}
                       items={[
                           { itemKey: 'main',text: '主页',icon: <IconHome />},
-                          { itemKey: 'system',text: '系统管理',icon: <IconSetting />},
-                          { itemKey: 'test', text: 'test', icon: <IconUser /> },
-                          { itemKey: 'test2', text: 'test2', icon: <IconStar /> }
+                          { itemKey: 'system',text: '系统管理',icon: <IconSetting />}
                       ]}
                       onSelect={key => console.log(key)}
                       header={{
@@ -88,8 +34,8 @@ function App() {
                                   </Dropdown.Menu>
                               }
                           >
-                              <span>Bytedancer</span>
-                              <Avatar size="small" color='light-blue' style={{ margin: 4 }}>BD</Avatar>
+                              <span>glkj</span>
+                              <Avatar size="small" color='light-blue' style={{ margin: 4 }}>GL</Avatar>
                           </Dropdown>
                       }
                   />
@@ -117,12 +63,6 @@ function App() {
                       backgroundColor: 'var(--semi-color-bg-0)',
                   }}
               >
-                  <Breadcrumb
-                      style={{
-                          marginBottom: '24px',
-                      }}
-                      routes={['首页', '当这个页面标题很长时需要省略', '上一页', '详情页']}
-                  />
                   <div
                       style={{
                           borderRadius: '10px',
@@ -140,26 +80,14 @@ function App() {
           </Layout>
           <Footer
               style={{
-                  display: 'flex',
                   justifyContent: 'space-between',
                   padding: '20px',
                   color: 'var(--semi-color-text-2)',
                   backgroundColor: 'rgba(var(--semi-grey-0), 1)',
+                  textAlign: 'center'
               }}
           >
-                <span
-                    style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                    }}
-                >
-                    <IconBytedanceLogo size="large" style={{ marginRight: '8px' }} />
-                    <span>Copyright © 2019 ByteDance. All Rights Reserved. </span>
-                </span>
-              <span>
-                    <span style={{ marginRight: '24px' }}>平台客服</span>
-                    <span>反馈建议</span>
-                </span>
+                    Copyright © 2022 glkj. All Rights Reserved.
           </Footer>
       </Layout>
     );
